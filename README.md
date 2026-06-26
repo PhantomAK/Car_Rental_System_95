@@ -10,7 +10,7 @@ The repository is organised as :
   - `manager.csv` : This file contains information about managers. It contains 6 different columns namely `UserId`, `Password` and `Name`.
   - `car.csv` : This file contains information about customers. It contains 7 different columns namely `CarId`, `Model`, `Condition`,`RentPerDay`, `RentDate`, `DueDate` and `UserIdRented`.
 
-- `Model.hpp` : This file contains the definitions of classes, functions and structures.
+- `Model.cpp` : This file contains the definitions of classes, functions and structures.
   - `User` class :
     - Base class for Customer, Employee and Manager.
     - Attributes - UserID, Password and Name.
